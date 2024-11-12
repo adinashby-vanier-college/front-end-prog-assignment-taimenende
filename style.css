@@ -103,4 +103,17 @@ h1 {
 .color.green { background-color: green; }
 .color.brown { background-color: brown; }
 
+.add-to-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
 
