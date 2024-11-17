@@ -1,15 +1,84 @@
-#block1{
+#page{
+    
+}
+
+nav {
+    background-color: rgb(245, 80, 108);
+    }
+
+.tindog-logo{
+    margin-left: 70px;;
+}    
+.container, .block1{
+    padding-left: 50px;
+}
+.block1{
     width: 100%;
-    height: 500px;
-    background-color: pink;
+    height: 400px;
+    display:flex;
+    background-color: rgb(245, 80, 108);  
+}
+
+.Lblock1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px
+}
+
+.Lblock1{
+    width: 50%;
+}
+
+.Lblock1 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+
+.Rblock1{
+    width: 50%;
 
 }
 
-#block2{
-    width: 100%;
+.dog{
+    width: 30%;
+    transform: rotate(27deg);
+    margin-left: 150px;
+    margin-top: 85px;
+}
+
+.block2{
     height: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+   
 }
+
+.easy, .elite, .guaranteed{
+    text-align: center;
+   
+    padding: 40px;;
+
+}
+
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+
+.block3{
+    background-color: salmon;
+    width: 100%;
+    height: 100px;
+
+}
+
+
