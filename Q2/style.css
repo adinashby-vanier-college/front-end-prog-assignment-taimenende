@@ -2,7 +2,6 @@
     justify-content: center;
 }
 
-
 nav {
     background-color: rgb(245, 80, 108);
     }
@@ -17,7 +16,8 @@ nav {
     width: 100%;
     height: 400px;
     display:flex;
-    background-color: rgb(245, 80, 108);  
+    background-color: rgb(245, 80, 108); 
+    overflow: hidden;
 }
 
 .Lblock1 {
@@ -52,15 +52,18 @@ nav {
 }
 
 .Rblock1{
-    width: 50%;
+    width: 60%;
 
 }
 
 .dog{
-    width: 30%;
     transform: rotate(27deg);
+    width: 220px;
     margin-left: 150px;
-    margin-top: 85px;
+    margin-top: 25px;
+   
+
+
 }
 
 .block2{
@@ -74,7 +77,6 @@ nav {
 
 .easy, .elite, .guaranteed{
     text-align: center;
-   
     padding: 40px;;
 
 }
@@ -93,6 +95,7 @@ h6{
     justify-content: center;
     align-items: center;
 }
+
 
 .textb3{
     text-align: center;
